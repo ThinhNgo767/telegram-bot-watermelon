@@ -1,0 +1,24 @@
+{
+  "name": "telegram-calculato-watermelon",
+  "version": "1.0.0",
+  "description": "Creat By Louis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "webhook"
+  ],
+  "author": "TRUMCUOI",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.4"
+  }
+}
